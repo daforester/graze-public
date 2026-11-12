@@ -1,0 +1,3 @@
+# Cloudflare's deploy configuration, not pages to serve.
+wrangler.jsonc
+.assetsignore

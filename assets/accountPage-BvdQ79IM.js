@@ -1,0 +1,1 @@
+import{aY as r,v as a,a_ as e}from"./index-Bj6qQuCP.js";const i=async(n,o="")=>{const c=r();if(!c)return"";try{const t=await a().catch(()=>{});return e(n,(t==null?void 0:t.ClientID)||"",o)||c}catch(t){return console.error(t),c}};export{i as A};

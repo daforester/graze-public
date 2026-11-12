@@ -1,0 +1,16 @@
+{
+  // Cloudflare's deploy of this build (the registration branch of daforester/graze-public):
+  // a static single-page app, so a path that is no file gets index.html.
+  "name": "graze-registration",
+  "compatibility_date": "2026-11-07",
+  // _redirects is Netlify's single-page app rule, for a deploy of this same build there.
+  // Cloudflare falls back to index.html by not_found_handling below, and would report the rule
+  // as an infinite loop, so its deploy drops the file first. Netlify never reads this file.
+  "build": {
+    "command": "rm -f _redirects"
+  },
+  "assets": {
+    "directory": "./",
+    "not_found_handling": "single-page-application"
+  }
+}
