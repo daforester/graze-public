@@ -1,0 +1,1 @@
+import{aD as i,j as e,P as s,g as r}from"./index-BlFUTyGn.js";function l(){const n=i(),a=e(()=>{var t;return!!((t=n.convention)!=null&&t.registrationConventionUuid)}),o=e(()=>r.some(t=>n.can(t))),c=e(()=>n.can(s.AttendeesDetails)||n.can(s.AttendeesLookup));return{linked:a,canPick:e(()=>a.value&&o.value),canSeeDetails:e(()=>a.value&&c.value)}}export{l as u};
