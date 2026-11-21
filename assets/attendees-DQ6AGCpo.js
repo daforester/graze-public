@@ -1,0 +1,1 @@
+import{q as n,ai as r,aj as c}from"./index-DPWE3Nh0.js";async function i(t,a,e=0,o=20){const{data:s}=await n.get(c(t,"/attendees"),{params:{q:a,offset:e,limit:o}});return{attendees:s?.attendees??[],total:s?.total??0}}async function p(t,a){const{data:e}=await n.post(r(t,"/attendees/lookup"),a);return e}export{p as l,i as s};
