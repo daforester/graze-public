@@ -1,0 +1,1 @@
+import{bd as i,l as e,P as s,h as r}from"./index-CyvLIWEZ.js";function l(){const n=i(),a=e(()=>{var t;return!!((t=n.convention)!=null&&t.registrationConventionUuid)}),o=e(()=>r.some(t=>n.can(t))),c=e(()=>n.can(s.AttendeesDetails)||n.can(s.AttendeesLookup));return{linked:a,canPick:e(()=>a.value&&o.value),canSeeDetails:e(()=>a.value&&c.value)}}export{l as u};
