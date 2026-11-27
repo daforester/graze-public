@@ -1,0 +1,1 @@
+import{u as a,m as e}from"./index--oaArIOE.js";const t=o=>typeof o=="string"?o:"";function p(){const o=a(),n=e(()=>t(o.params.org)),s=e(()=>({org:n.value,convention:t(o.params.convention),event:t(o.params.event)})),r=e(()=>t(o.params.lot));return{org:n,scope:s,lot:r}}export{p as u};
